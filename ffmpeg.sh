@@ -1,0 +1,1 @@
+ffmpeg -f gdigrab -r 100 -i desktop -crf 40 -preset ultrafast -vcodec libx264 -f mpegts udp://ip:port
